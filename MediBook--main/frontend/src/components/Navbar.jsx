@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link to={"/about"} onClick={() => setShow(!show)}>
               About Us
             </Link>
-            <a href="http://localhost:5175/" target="_blank" rel="noopener noreferrer" className="admin-portal-link">
+            <a href="https://medi-book-admin-orcin.vercel.app/" target="_blank" rel="noopener noreferrer" className="admin-portal-link">
               Admin Portal
             </a>
           </div>

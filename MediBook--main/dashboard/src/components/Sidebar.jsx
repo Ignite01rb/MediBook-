@@ -70,7 +70,7 @@ const Sidebar = () => {
           <MdAddModerator onClick={gotoAddNewAdmin} title="Add Admin" />
           <IoPersonAddSharp onClick={gotoAddNewDoctor} title="Add Doctor" />
           <AiFillMessage onClick={gotoMessagesPage} title="View Messages" />
-          <FaEye onClick={() => window.open("http://localhost:5174/", "_blank")} title="View Patient Portal" />
+          <FaEye onClick={() => window.open("https://medi-book-eta.vercel.app/", "_blank")} title="View Patient Portal" />
           <RiLogoutBoxFill onClick={handleLogout} title="Logout" />
         </div>
       </nav>
